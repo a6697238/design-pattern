@@ -13,7 +13,7 @@ import java.io.*;
 public class IOstreamTest {
     public static void main(String[] args) throws Exception {
 //        String testPath = "/Users/yp-pc-m-7120/EclipseWorkSpace/tomcat-struggle-boss-product/commoncfg/runtimecfg/zkConfig.properties";
-        String testPath = "/Users/yp-pc-m-7120/Software/ss5-3.8.9-8.tar.gz";
+        String testPath = "/apps/下载.zip";
         BufferedReader bf = new BufferedReader(new InputStreamReader(new FileInputStream(testPath)));
         InputStreamReader ifa = new InputStreamReader(new FileInputStream(testPath));
         String temp = "";
